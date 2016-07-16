@@ -23,7 +23,6 @@ const join_ip = function(ipaddr) {
   return ipaddr.join('.');
 };
 
-// FIXME -- doesn't seem to be working right. not return the correct values.
 function isDash(macAddr) {
   const filteredDash = dashes.filter((dash) => {
     if (dash.macAddr === macAddr) return dash;
