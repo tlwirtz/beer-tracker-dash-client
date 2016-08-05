@@ -6,6 +6,6 @@ Future development will include methods for registering dash buttons with the cl
 
 Known Mac Addresses
 
-`74:75:48:3d:7f:6a` -- gatorade
-`84:d6:d0:3e:53:5f` -- smartwater
-`44:65:0d:d5:ef:23` -- redbull
+`74:75:48:3d:7f:6a` -- gatorade  
+`84:d6:d0:3e:53:5f` -- smartwater  
+`44:65:0d:d5:ef:23` -- redbull  
