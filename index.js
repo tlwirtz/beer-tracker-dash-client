@@ -19,5 +19,4 @@ const dashes = [
 ];
 
 const dashClient = client.startClient(dashes);
-
 sniffer.sniffForDevice(dashClient);
