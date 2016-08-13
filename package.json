@@ -20,7 +20,9 @@
   "dependencies": {
     "dash-button": "^1.0.0",
     "debug": "^2.2.0",
-    "pcap": "git+https://github.com/mranney/node_pcap.git"
+    "pcap": "git+https://github.com/mranney/node_pcap.git",
+    "superagent": "^2.2.0",
+    "superagent-promise": "^1.1.0"
   },
   "devDependencies": {
     "node-dash-button": "^0.5.0"
