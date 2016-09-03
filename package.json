@@ -1,6 +1,6 @@
 {
   "name": "beer-tracker-dash-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Uses an AMAZON DASH button to trigger calls to the Beer Tracker API",
   "main": "index.js",
   "scripts": {
