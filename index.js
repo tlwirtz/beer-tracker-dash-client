@@ -2,6 +2,7 @@
 
 const sniffer = require('./lib/sniffer');
 const client = require('./lib/dash-client');
+const debug = require('debug')('dashClient');
 const beerTracker = require('./lib/beer-tracker')(process.env.BEER_TRACKER_SERVER);
 
 const dashes = [
@@ -20,7 +21,8 @@ const dashes = [
 ];
 
 
-beerTracker.getDevices();
+beerTracker.getDevices()
+.then(devices => debug(devices));
 
 const dashClient = client.startClient(dashes);
 sniffer.sniffForDevice(dashClient);
