@@ -1,11 +1,12 @@
 {
   "name": "beer-tracker-dash-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Uses an AMAZON DASH button to trigger calls to the Beer Tracker API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scan": "dash-button scan"
+    "scan": "dash-button scan",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,12 @@
   },
   "homepage": "https://github.com/tlwirtz/beer-tracker-dash-client#readme",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "dash-button": "^1.0.0",
-    "pcap": "git+https://github.com/mranney/node_pcap.git"
+    "debug": "^2.2.0",
+    "pcap": "git+https://github.com/mranney/node_pcap.git",
+    "superagent": "^2.2.0",
+    "superagent-promise": "^1.1.0"
   },
   "devDependencies": {
     "node-dash-button": "^0.5.0"
