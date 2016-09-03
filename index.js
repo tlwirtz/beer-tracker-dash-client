@@ -21,5 +21,6 @@ const dashes = [
 
 
 beerTracker.getDevices();
+
 const dashClient = client.startClient(dashes);
 sniffer.sniffForDevice(dashClient);
