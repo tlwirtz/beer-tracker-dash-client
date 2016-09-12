@@ -4,6 +4,8 @@ const sniffer = require('./lib/sniffer');
 const client = require('./lib/dash-client');
 const beerTracker = require('./lib/beer-tracker')(process.env.BEER_TRACKER_SERVER);
 
+// use this array to define dashes to be used as a fallback if ther server doesn't return any dashses.
+// this 'feature' should probably go away sometime.
 const dashes = [
   {
     macId: '7475483d7f6a',

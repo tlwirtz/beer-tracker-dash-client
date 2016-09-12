@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scan": "dash-button scan",
+    "scan": "echo \"Error: Feature Not Currently Defined\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
