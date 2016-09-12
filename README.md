@@ -1,8 +1,9 @@
 # beer-tracker-dash-client
 This is a client that will run on a Raspberry Pi and listen for signals from repurposed dash buttons.
 This is still under heavily development. Currently the client listens for incoming signals matching a particular pattern and matches them to known dash buttons.
+Future development will include methods for registering dash buttons with the client and a full featured CLI.
 
-Future development will include methods for registering dash buttons with the client and communication with the beer-tracker server.
+The client uses an instance of the [Beer Tracker API]. (https://github.com/tlwirtz/beer-tracker-api)
 
 ## Starting the Dash client
 1. Make sure to properly install the dash client with `npm install`.
