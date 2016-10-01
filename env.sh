@@ -1,2 +1,2 @@
 export DEBUG=dashClient*
-export BEER_TRACKER_SERVER=http://localhost:3000
+export BEER_TRACKER_SERVER=https://beer-tracker-api.herokuapp.com/
